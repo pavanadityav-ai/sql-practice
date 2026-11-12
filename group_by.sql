@@ -1,5 +1,5 @@
 -- SQL practice: GROUP BY, WHERE, HAVING, ORDER BY
--- Sample data: coconut sales by buyer and state
+-- Sample data (made up): agricultural produce sales by buyer and state
 
 -- Create the table
 CREATE TABLE sales (
@@ -23,7 +23,7 @@ INSERT INTO sales VALUES
 -- 1. Total bags per state
 SELECT state, SUM(bags) AS total FROM sales GROUP BY state;
 
--- 2. Total bags per state, dry coconuts only
+-- 2. Total bags per state, type 'dry' only
 SELECT state, SUM(bags) AS total FROM sales WHERE type = 'dry' GROUP BY state;
 
 -- 3. States with 60 or more bags in total

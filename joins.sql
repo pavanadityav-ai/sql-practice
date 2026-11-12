@@ -1,5 +1,5 @@
 -- SQL practice: INNER JOIN and LEFT JOIN
--- Sample data: coconut buyers and their lorry orders
+-- Sample data (made up): buyers and their lorry orders
 
 -- Buyers table
 CREATE TABLE buyers (

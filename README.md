@@ -1,6 +1,6 @@
 # SQL Practice
 
-SQL queries I wrote while learning data analysis. The sample data is modelled on my family's coconut business: buyers in different cities and their lorry orders.
+SQL queries I wrote while learning data analysis. The sample data is made up and modelled on an agricultural export business: buyers in different cities and their lorry orders.
 
 ## Files
 
